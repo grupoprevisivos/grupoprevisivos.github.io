@@ -1642,6 +1642,35 @@ body .form .btn:hover {
 .benefits .form .btn {
   background-color: #99d557;
 }
+
+.redes-icon{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.redes-icon li{
+  list-style: none;
+}
+
+.redes-icon li a{
+  font-size: 2em;
+  color: #000;
+  display: inline-block;
+  transition: 0.1s;
+  margin: 0 10px;
+}
+
+.redes-icon li a:hover{
+  font-size: 2em;
+  color: #d4bb59;
+  display: inline-block;
+  transition: 0.1s;
+  transform: translateY(-3px);
+}
+
 @media only screen and (min-width: 1200px) {
   .plans__card:hover .price,
   .plans__card:hover .subtitle,
