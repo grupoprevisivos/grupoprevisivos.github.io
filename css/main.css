@@ -1060,7 +1060,7 @@ button {
 .header__phone .caption {
   display: inline-block;
   margin-right: 20px;
-  color: rgb(21, 255, 0);
+  color: #d4bb59;
   font-weight: bold;
   font-size: 16px;
 }
@@ -1110,7 +1110,7 @@ button {
     text-align: center;
     font-weight: 700;
     line-height: 70px;
-    background-color: #99d557;
+    background-color: #d4bb59;
     background-position: center center;
   }
   .header__phone .caption {
@@ -1260,7 +1260,13 @@ body .title:before {
 }
 
 body .text {
-  font-size: 14px;
+  font-size: 15px;
+  text-align: center;
+  color: #474747;
+}
+
+body .text2 {
+  font-size: 20px;
   text-align: center;
   color: #474747;
 }
@@ -1270,7 +1276,7 @@ body .form {
   height: 480px;
   margin: auto 0;
   padding: 0 10px;
-  background-color: #d9ff0081;
+  background-color: #d4bb59;
   border-radius: 5px;
   box-shadow: 0 10px 32px rgba(214, 210, 210, 0.16) 0.16);
 }
