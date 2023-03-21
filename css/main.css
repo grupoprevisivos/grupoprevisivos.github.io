@@ -1060,7 +1060,7 @@ button {
 .header__phone .caption {
   display: inline-block;
   margin-right: 20px;
-  color: #d4bb59;
+  color: #000000;
   font-weight: bold;
   font-size: 16px;
 }
@@ -1668,7 +1668,7 @@ body .form .btn:hover {
   color: #d4bb59;
   display: inline-block;
   transition: 0.1s;
-  transform: translateY(-3px);
+  transform: translateY(-3pxcaption);
 }
 
 @media only screen and (min-width: 1200px) {
